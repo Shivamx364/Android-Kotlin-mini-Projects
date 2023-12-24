@@ -1,6 +1,7 @@
 package com.example.bankaccount
 
 class BankAccount (
+
     private var accountHolder:String,
     private var balance:Double){
     private val transactionHistory= mutableListOf<String>()
